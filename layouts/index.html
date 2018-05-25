@@ -9,6 +9,8 @@
 		<title>{{ .Title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		{{ if .Site.Params.Description }}<meta name="description" content="{{ .Site.Params.Description }}" />{{ end }}
+		{{ if .Site.Params.Language }}<meta name="language" content="{{ .Site.Params.Language }}" />{{ end }}
 		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
