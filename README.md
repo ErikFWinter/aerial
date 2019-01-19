@@ -17,16 +17,23 @@ After installation, you only need to configure the config.toml file and, if desi
 
 ### The config file
 
-Copy the config.toml file from the exampleSite folder into your root folder of your Hugo site. Change the fields as needed. Be sure to change the baseurl. Add or delete social media as needed. You may need to look up the [font-awesome](http://fontawesome.io/) icon names. The icon field should be filled out without the "fa" prefix. The icon field for Twitter should be `twitter` instead of `fa-twitter`.
+Copy the config.toml file from the exampleSite folder into your root folder of your Hugo site. Change the fields as needed. Be sure to change the baseurl. Add or delete social media as needed. You may need to look up the [font-awesome](http://fontawesome.io/) icon names. 
+
+#### FontAwesome update 4.7 -> 5.6.3
+
+If you update from a previous version of this theme, you will need to adjust you icons.
+e.g.
+Previously `twitter` was enough, after the update you will need to use `fab fa-twitter`.
+As the theme should allow all available FontAwesome icons.
 
 #### GoogleAnalytics
 
 Configure your GoogleAnalytics account in the config file
 e.g.
 
-> [params]
-> ..
->   googleanalytics = "UA-XXX-Y"
+    [params]
+    ..
+    googleanalytics = "UA-XXX-Y"
 
 ### Change the background
 
