@@ -9,7 +9,7 @@ Aerial is a single page, single screen responsive site template. It is a port of
 Run the following commands inside the folder of your Hugo site:
 
 	$ cd themes
-	$ git clone https://github.com/sethmacleod/aerial.git
+	$ git clone https://github.com/ErikFWinter/aerial.git
 
 ## Getting Started
 
